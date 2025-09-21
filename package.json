@@ -1,0 +1,41 @@
+{
+  "name": "iraq-geography-data",
+  "version": "1.0.0",
+  "description": "قاعدة بيانات شاملة للمحافظات، الأقضية، والنواحي/القرى في العراق",
+  "main": "data/iraq_data.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/younisdany/iraq-geography-data.git"
+  },
+  "keywords": [
+    "iraq",
+    "geography",
+    "provinces",
+    "districts",
+    "villages",
+    "json",
+    "javascript",
+    "العراق",
+    "جغرافيا",
+    "محافظات",
+    "أقضية",
+    "نواحي"
+  ],
+  "author": "USER_NAME_PLACEHOLDER",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/USERNAME/iraq-geography-data/issues"
+  },
+  "homepage": "https://github.com/younisdany/iraq-geography-data#readme",
+  "files": [
+    "data/",
+    "examples/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ]
+}
+
