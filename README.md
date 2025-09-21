@@ -41,7 +41,7 @@
 
 ```html
 <!-- مثال لتضمين الملف بعد نشره على CDN -->
-<script src="https://cdn.jsdelivr.net/gh/USERNAME/iraq-geography-data@v1.0.0/iraq_data.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/younisdany/iraq-geography-data@v1.0.0/data/iraq_data.min.js"></script>
 <script>
   // بعد التحميل، ستكون البيانات متاحة عبر المتغير العام IRAQ_GEOGRAPHY
   console.log("عدد المحافظات:", IRAQ_GEOGRAPHY.length);
@@ -52,7 +52,7 @@
 أو إذا كنت تفضل استخدام ملف JSON مباشرة:
 
 ```javascript
-fetch("https://cdn.jsdelivr.net/gh/USERNAME/iraq-geography-data@v1.0.0/iraq_data.json")
+fetch("https://cdn.jsdelivr.net/gh/younisdany/iraq-geography-data@v1.0.0/data/iraq_data.json")
   .then(response => response.json())
   .then(data => {
     console.log(data);
